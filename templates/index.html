@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>自动数据分析报告生成</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>自动数据分析报告生成</h1>
+        <form action="/upload" method="POST" enctype="multipart/form-data">
+            <label for="file">选择一个 CSV 文件：</label>
+            <input type="file" name="file" id="file" accept=".csv" required>
+            <button type="submit">上传</button>
+        </form>
+
+        {% if message %}
+        <p>{{ message }}</p>
+        <p><a href="{{ url_for('download_report', filename=report_md) }}" target="_blank">下载 Markdown 报告</a></p>
+        {% endif %}
+    </div>
+</body>
+</html>
