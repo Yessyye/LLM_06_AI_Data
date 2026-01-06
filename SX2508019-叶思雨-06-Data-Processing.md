@@ -1,3 +1,4 @@
+### 独立仓库链接 https://github.com/Yessyye/LLM_06_AI_Data.git
 ### Tips：该报告由三部分组成
 - ①AI分析系统概述与环境配置
 - ②示例泰坦尼克csv文件实验报告（对应库中reports/Data-Analysis-Report.md）
@@ -26,6 +27,8 @@
 3. 打开浏览器并访问 `http://127.0.0.1:5000/`，上传 CSV 文件进行分析。
 
 4. 上传成功后，报告会自动生成，并提供下载链接（Markdown 和 PDF 格式）。
+5. python版本3.10
+6. AI代理大模型：GPT4
 
 ## 二、配置
 
