@@ -63,7 +63,7 @@
 
 以下为票价与生还情况的关系图。可以看到，票价较高的乘客生还的可能性较大。
 
-![票价与生还情况的关系](fare_survival_relationship.png)
+![票价与生还情况的关系](reports/fare_survival_relationship.png)
 
 ## 七、兄弟姐妹/配偶（SibSp）和父母/子女（Parch）对生还情况的影响
 
@@ -95,13 +95,13 @@
 以下是乘客的年龄分布、票价分布以及生还情况的可视化：
 
 - **年龄分布**  
-![年龄分布](age_distribution.png)
+![年龄分布](reports/age_distribution.png)
 
 - **票价分布**  
-![票价分布](fare_distribution.png)
+![票价分布](reports/fare_distribution.png)
 
 - **生还情况分布**  
-![生还情况分布](survival_distribution.png)
+![生还情况分布](reports/survival_distribution.png)
 
 ## 九、总结性分析
 ### 1. 生还率概况
